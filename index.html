@@ -62,7 +62,7 @@
 <div id="summary">
 <div class="header"><h1>A Recap of The Hunger Games</h1></div>
 <button id="restart" type="button" class="buttonTwo"><span>New Hunger Games</span></button>
-<button id="same" type="button" class="buttonTwo"><span>Quarter Quell! Same Tributes Again!</span></button>
+<button id="same" type="button" class="buttonTwo"><span>Same Tributes Again!</span></button>
 </div>
 
 <script>
@@ -345,7 +345,7 @@
 							fates.push(allNames[r] + " has grown a Stalin mustache.");
 						}
 						else if (itemsToFind[q] === "one spaghetti"){
-							fates.push(allNames[r] + " discovers a singular spaghetti lying on the ground.");	
+							fates.push(allNames[r] + " discovers a singular spaghetti string lying on the ground.");	
 						}
 						else {
 							if (f === 'a' || f === 'e' || f === 'i' || f === 'o'){
@@ -363,14 +363,14 @@
 							article += "n";
 						}
 						if (sponsor[q] === "one spaghetti"){
-							fates.push(allNames[r] + " receives a singular spaghetti from a sponsor");	
+							fates.push(allNames[r] + " receives a singular spaghetti string from a sponsor");	
 						}
 						else {
 							fates.push(allNames[r] + " receives " + article + " " + sponsor[q] + " from a sponsor");
 						}
 						playerItems[r].push(sponsor[q]);
 						if (sponsor[q] === "empty box"){
-							fates[fates.length-1] += ", because apparently the sponsor is a dick.";
+							fates[fates.length-1] += ", because apparently the sponsor is an evil bully.";
 							playerItems[r].pop();
 						}
 						else {
@@ -683,7 +683,7 @@
 						}
 					}
 					else if (a === "email"){
-						fates.push(allNames[r] + " angrily emails finance club about not being on the A team.");
+						fates.push(allNames[r] + " angrily emails finance club about not being on the A+ team.");
 						playerItems[r].push("email");
 					}
 					else {
@@ -805,7 +805,7 @@
 						summary.push(fates[fates.length-1]);
 					}
 					else if (a === "stream"){
-						fates.push(allNames[r] + " said racial slurs on a Twitch livestream and got roasted to death.")
+						fates.push(allNames[r] + " said SUBSCRIBE PLEASE!! on a Twitch livestream and got roasted to death.")
 					}
 					else if (a === "unsafe dating"){
 						var lol = playerItems[r].indexOf("pack of condoms");
