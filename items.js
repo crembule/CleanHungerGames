@@ -46,7 +46,7 @@ var itemsToFind =
 "paintball",
 "used Band-Aid",
 "clean water",
-"pack of condoms",
+"pack of bubble gum",
 "tent",
 "biology textbook",
 "bucket of KFC",
